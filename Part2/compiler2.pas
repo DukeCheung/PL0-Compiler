@@ -884,7 +884,7 @@ End ;
 
 Begin  
 
-  writeln('please input source program file name : ');
+  writeln('Please input source program file name : ');
   
   readln(sfile);    
   assign(input,sfile);   
@@ -893,31 +893,6 @@ Begin
   rewrite(output);   
   For ch := 'A' To ';' Do
     ssym[ch] := nul;
-  // word[1] := 'begin     ';
-  // word[2] := 'call      ';
-  // word[3] := 'const     ';
-  // word[4] := 'do        ';
-  // word[5] := 'end       ';
-  // word[6] := 'if        ';
-  // word[7] := 'odd       ';
-  // word[8] := 'procedure    ';
-  // word[9] := 'then      ';
-  // word[10] := 'var       ';
-  // word[11] := 'while     ';
-  
-  // wsym[1] := beginsym;
-  // wsym[2] := callsym;
-  // wsym[3] := constsym;
-  // wsym[4] := dosym;
-  // wsym[5] := endsym;
-  // wsym[6] := ifsym;
-  // wsym[7] := oddsym;
-  // wsym[8] := procsym;
-  // wsym[9] := thensym;
-  // wsym[10] := varsym;
-  // wsym[11] := whilesym;
-  // wsym[12] := readsym;
-  // wsym[13] := writesym;
   word[1] := 'begin        ';
   word[2] := 'call         ';
   word[3] := 'const        ';

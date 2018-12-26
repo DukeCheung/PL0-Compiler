@@ -812,7 +812,7 @@ End;
 
 Begin  
 
-  writeln('please input source program file name : ');
+  writeln('Please input source program file name : ');
   
   readln(sfile);    
   assign(input,sfile);   
