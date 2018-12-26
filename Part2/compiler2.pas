@@ -867,6 +867,7 @@ Begin
                 writeln('Please enter:');   
                 writeln(output, 'Please enter:'); 
                 readln(s[base(l)+a]);
+                writeln(output, s[base(l)+a]);  
               End;
         wrt :
               Begin    
